@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Fieldscope</title>
+  <script type="module" crossorigin src="./assets/main-DeELhCPF.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/nav-DDxvBEIb.js">
+  <link rel="stylesheet" crossorigin href="./assets/nav-B2-Jns2k.css">
+</head>
+<body>
+  <main>
+    <nav id="scenes" class="scenes"></nav>
+    <header>
+      <h1>Fieldscope</h1>
+      <p>Drag the probe. The arrow points where T rises fastest.</p>
+    </header>
+    <div class="stage"><canvas id="field"></canvas></div>
+    <section class="cards">
+      <div class="card"><span class="label">Position</span><span id="pos" class="val"></span></div>
+      <div class="card"><span class="label">T</span><span id="temp" class="val"></span></div>
+      <div class="card"><span class="label">∇T</span><span id="grad" class="val"></span></div>
+      <div class="card"><span class="label">|∇T|</span><span id="mag" class="val"></span></div>
+    </section>
+  </main>
+</body>
+</html>
